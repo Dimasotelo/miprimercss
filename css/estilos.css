@@ -13,6 +13,7 @@ header {
    font-size: 32px;
    text-align: left;
    text-shadow: 2px 2px 2px #02010a;
+
 }
 
 body {
@@ -328,8 +329,9 @@ margin-bottom: 15px;
                           }
 
 /*estilos responsive*/
-@media screen and (min-width: 900px)  {
-@media screen and (max-width: 899px ) header { display:flex; flex-direction:column;}{
+
+@media screen and (max-width: 899px ) {
+  header { display:flex; flex-direction:column;}
 
 /*inicio*/
 
